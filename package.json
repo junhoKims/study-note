@@ -1,0 +1,12 @@
+{
+  "name": "study-note",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/junhoKims/study-note.git",
+  "author": "Junho Kim <40831445+junhoKims@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
