@@ -198,6 +198,39 @@ aside .ripple li {
 
 footer {
   clear: both;
-  height: 120px;
-  border: 1px solid brown;
+  height: 260px;
+  background-color: #05354e;
+  color: white;
+}
+
+#bottom_menu ul {
+  padding: 20px 0 0 100px;
+  font-weight: bold;
+}
+
+#bottom_menu li {
+  display: inline;
+  margin-right: 30px;
+}
+
+footer .items {
+  float: left;
+  margin: 40px 0 0 100px;
+}
+
+footer h3 {
+  color: #0ca0a3;
+}
+
+footer .items ul {
+  margin-top: 15px;
+}
+
+footer .items li {
+  margin-top: 5px;
+}
+
+footer .phone {
+  font-size: 25px;
+  font-weight: bold;
 }
