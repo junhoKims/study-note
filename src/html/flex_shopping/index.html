@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Shopping</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+
+    header {
+      background-color: #424242;
+      text-align: center;
+      color: white;
+      padding: 25px 0;
+      margin-bottom: 30px;
+    }
+
+    header span {
+      color: yellow;
+    }
+
+    .row {
+      width: calc(100% - 60px);
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      /* white-space: wrap; */
+    }
+
+    .row img {
+      max-width: 100%;
+      
+    }
+
+    .row ul {
+      padding-left: 20px;
+      padding-bottom: 20px;
+    }
+
+    .row li {
+      margin-bottom: 5px;
+    }
+    
+    .row li:nth-of-type(2) { font-weight: bold; }
+    .row li:nth-of-type(3) { color: orange; }
+    .row li:last-child { text-align: end; margin-right: 10px; font-size: 12px; }
+
+    @media only screen and (max-width: 440px) {
+      .row { flex-wrap: wrap; width: 100%; }
+      .row ul { margin-right: 20px; width: 100%; }
+      .row img { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h4><span>조명</span> 쇼핑몰</h4>
+  </header>
+  <div class="row">
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+    <ul>
+      <li><img src="../../../public/images/bread1.png" /></li>
+      <li>110V/220V 공용 거실 조명</li>
+      <li>18,000원</li>
+      <li>60개 구매중</li>
+    </ul>
+
+  </div>
+</body>
+</html>
